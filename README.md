@@ -14,10 +14,10 @@ This project focuses on web scraping techniques used to extract country-specific
 - Save the structured data to a CSV file.
 
 ## ⚒️ Tools and Libraries
-- **Python**: The primary programming language used for the project.
-- **Requests**: A Python HTTP library used to send HTTP requests to the website.
-- **BeautifulSoup**: A Python library for parsing HTML and XML documents and extracting data.
-- **Pandas**: A powerful data manipulation tool used to create DataFrames and export the data to CSV format.
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
 
 ## 📊 Data
 The data extracted from the World Atlas contains the following attributes for each country:
