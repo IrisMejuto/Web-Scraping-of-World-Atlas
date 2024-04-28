@@ -1,10 +1,12 @@
 # Web-Scraping-of-World-Atlas-Country-Data
 Web Scraping of World Atlas: A Python-based data collection tool that extracts and saves country-specific information including names, flag images, and population figures into an easily accessible CSV format. #Python 
 
-## 🪟 Overview:
+## 🪟 Overview
 
 This project focuses on web scraping techniques used to extract country-specific data from the World Atlas. The main objective of the project is to create a structured data set from the unstructured data available on the website, which can be further used for data analysis and visualization and perhaps to enrich other data sets.
 
+[world_atlas_scraper.py](https://github.com/IrisMejuto/Web-Scraping-of-World-Atlas/blob/main/world_atlas_scraper.ipynb)
+[CSV File]()
 ## 🎯 Goals
 - Extract country data, including names, images of national flags, and population figures.
 - Store the extracted data in a Pandas DataFrame for manipulation.
