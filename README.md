@@ -33,11 +33,12 @@ The `world_atlas_scraper.py` script performs the following actions:
 
 ## 📃 Use
 
-Before using the scraping script provided in this repository, ensure you perform the following steps to ensure it functions correctly:
+Before running the scraping script provided in this repository, make sure to perform the following essential step to ensure it functions correctly:
 
-1. **Modify the CSV Save Path**:
-- The script includes a predefined path where the CSV file will be saved. **It is essential that you modify this path to match a directory** on your system where you have write permissions. Open the script and locate the line where the `to_csv` method is called, then replace the path with your own. For example:
+1. **Modify the CSV Save Path**: The script includes a specific line where the path for saving the CSV file is defined. You must modify this path to one that is valid on your own computer where you have the necessary write permissions. Locate the following line in the script:
 
-     ```python
-   csv_save_path = r'C:\Users\YourUsername\Documents\countries_data.csv'
+   ```python
+   # Save the DataFrame to a CSV file
+   countries_df.to_csv(r'Z:\Programas\Anaconda\Notebooks\Proyectos propios\Wordl Analysis\countries_data.csv', index=False)
+
 
